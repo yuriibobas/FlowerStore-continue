@@ -13,7 +13,6 @@ public class Flower {
     /** Color of a flower. */
     private FlowerColor color;
     /** Price of a flower. */
-    @Getter
     private double price;
     /** Type of a flower. */
     @Getter
@@ -47,5 +46,9 @@ public class Flower {
      */
     public String getColor() {
         return color.toString();
+    }
+
+    public double getPrice() {
+        return price;
     }
 }
